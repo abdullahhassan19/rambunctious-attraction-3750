@@ -4,7 +4,6 @@ import CartPage from "../Pages/CartPage";
 import HomePage from "../Pages/HomePage";
 import PaymentSuccess from "../Pages/PaymentSuccessPage";
 
-
 const AllRoutes = () => {
   return (
     <>
