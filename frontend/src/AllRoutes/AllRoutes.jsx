@@ -2,6 +2,7 @@ import React from "react";
 import { Routes, Route } from "react-router-dom";
 import CartPage from "../Pages/CartPage";
 import HomePage from "../Pages/HomePage";
+
 import PaymentSuccess from "../Pages/PaymentSuccessPage";
 
 const AllRoutes = () => {
