@@ -303,18 +303,81 @@ export const health = [
   },
 ];
 
+
 export const topSlidingImage = [
   {
-    img: "https://onemg.gumlet.io/f74cb682-3870-4fb8-8c83-5e009996e6a6_1663355796.jpg?w=899&h=200&format=auto",
+    img: "https://onemg.gumlet.io/19a4fe54-3a77-411b-9e53-9adbacfbd9e9_1664865792.jpg?w=857&h=200&format=auto",
   },
   {
-    img: "https://onemg.gumlet.io/a_ignore,w_899,h_200,c_fit,q_auto,f_auto/6d13550f-4564-47f9-9e74-28ddcd6bda10.png",
+    img: "https://onemg.gumlet.io/a_ignore,w_857,h_200,c_fit,q_auto,f_auto/c5c79b59-a029-48a4-b1ca-5a3167c5619e.png",
+  },
+  {
+    img: "https://onemg.gumlet.io/a_ignore,w_857,h_200,c_fit,q_auto,f_auto/826647b4-eed5-4931-a433-f7b325e8ccc4.pngg",
   },
   {
     img: "https://onemg.gumlet.io/a_ignore,w_899,h_200,c_fit,q_auto,f_auto/eynhkhgh6x2z3lrfibod.png",
   },
 ];
 
+export const PopularCombo = [
+  
+  {
+    link: "/otc/tata-1mg-diabetes-care-combo-pack-for-cholesterol-blood-sugar-management-otc795842",
+    img: "https://onemg.gumlet.io/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/c2sw0gi2dw4cwdf1ecjp.jpg",
+    name: "Accu-Chek Combo Pack of Active 50 Test Strip & 2 Pack of Softclix Lancet (25 Each)",
+    qty: " combo pack of 3 units",
+    strikePrice: "1698",
+    discount: "20% off",
+    price: "909",
+  },
+  {
+    link: "/otc/tata-1mg-diabetes-care-combo-pack-for-cholesterol-blood-sugar-management-otc795842",
+    img: "https://onemg.gumlet.io/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/hqi50gamtyablux4pozy.jpg",
+    name: "Durex Honeymoon Pack (Mutual Climax Condoms + Sensual Lube",
+    qty: " combo pack of 3 units",
+    strikePrice: "1698",
+    discount: "20% off",
+    price: "909",
+  },
+  {
+    link: "/otc/tata-1mg-diabetes-care-combo-pack-for-cholesterol-blood-sugar-management-otc795842",
+    img: "https://onemg.gumlet.io/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/qir6i2zlhzeddxa4mqt0.jpg",
+   
+    name: " Immunity Care Combo of 1mg Panch Tulsi 30ml",
+    qty: " combo pack of 3 units",
+    strikePrice: "1698",
+    discount: "20% off",
+    price: "909",
+  },
+  {
+    link: "/otc/tata-1mg-diabetes-care-combo-pack-for-cholesterol-blood-sugar-management-otc795842",
+    img: "https://onemg.gumlet.io/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/c2sw0gi2dw4cwdf1ecjp.jpg",
+    name: "Accu-Chek Combo Pack of Active 50 Test Strip & 2 Pack of Softclix Lancet (25 Each)",
+    qty: " combo pack of 3 units",
+    strikePrice: "1698",
+    discount: "20% off",
+    price: "909",
+  },
+  {
+    link: "/otc/tata-1mg-diabetes-care-combo-pack-for-cholesterol-blood-sugar-management-otc795842",
+    img: "https://onemg.gumlet.io/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/hqi50gamtyablux4pozy.jpg",
+    name: "Durex Honeymoon Pack (Mutual Climax Condoms + Sensual Lube",
+    qty: " combo pack of 3 units",
+    strikePrice: "1698",
+    discount: "20% off",
+    price: "909",
+  },
+  {
+    link: "https://www.1mg.com/otc/baidyanath-kamini-vidrawan-ras-keshar-yukta-tablet-otc560948",
+    img: "https://onemg.gumlet.io/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/38b86c6a33f744afac80ed36d4bb87ba.jpg",
+    name: "Tata 1mg Diabetes Care Combo Pack for Cholesterol & Blood Sugar Management",
+    qty: "combo pack of 3 Packsle of 10 ",
+    strikePrice: "1698",
+    discount: "20% off",
+    price: "1358",
+  },
+
+]
 export const topSellingProducts = [
   {
     link: "https://www.1mg.com/otc/baidyanath-kamini-vidrawan-ras-keshar-yukta-tablet-otc560948",
