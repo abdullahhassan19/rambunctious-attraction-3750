@@ -1,7 +1,8 @@
 import { Box, Text } from '@chakra-ui/react'
 import React from 'react'
-import Carousel from '../Components/Carousel'
-import ProductBox from './Productscarosel'
+import { Carosel } from '../Components/Carosel/Carosel'
+
+import ProductsBox from './ProductsBox'
 
 
 
@@ -9,7 +10,8 @@ import ProductBox from './Productscarosel'
 const HomePage = () => {
   return (
     <div>
-      <Carousel/>
+      {/* <Carousel/> */}
+      <Carosel/>
       <Box textAlign={"center"} p="2rem" border="1px solid lightgrey">
         <Text
           fontWeight={"400"}
@@ -22,7 +24,7 @@ const HomePage = () => {
       </Box>
       
     <div>
-      <ProductBox/>
+      <ProductsBox/>
     </div>
     </div>
 
