@@ -2,6 +2,7 @@ import { Box, Button,  Image, Link,  Text } from "@chakra-ui/react";
 import React from "react";
 import BrandsCard from "../Components/cards/BrandCard";
 import CheckupCard from "../Components/cards/CheckupCards";
+import ComboCard from "../Components/cards/ComboCard";
 import Popularcategories from "../Components/cards/Popularcategories";
 import ProductsCard from "../Components/cards/ProductsCard";
 import {
@@ -11,11 +12,13 @@ import {
 
   popularCategories,
 
+  PopularCombo,
+
   Shopbyhealthconcerns,
   topSellingProducts,
 } from "./Productsdata";
 
-const ProductsBox = () => {
+const ALLProductsBrands = () => {
   return (
     <Box bg="#f6f6f6">
       {/* Top image */}
@@ -187,6 +190,7 @@ const ProductsBox = () => {
 
       {/* Products */}
 
+     
       <Box mt="2rem">
         <Box
           display="flex"
@@ -195,7 +199,7 @@ const ProductsBox = () => {
           mb="0.5rem"
         >
           <Text fontWeight={"400"} lineHeight={"26px"} fontSize={"22px"}>
-            Top Sellers From Ensure
+          Popular Combo Deals
           </Text>
           <Link href="http://localhost:3000/allProducts" target="_blank">
             <Button
@@ -208,7 +212,7 @@ const ProductsBox = () => {
             </Button>
           </Link>
         </Box>
-        <ProductsCard something={topSellingProducts} />
+        <ComboCard something={PopularCombo} />
       </Box>
 
       {/* brands */}
@@ -261,45 +265,7 @@ const ProductsBox = () => {
   );
 };
 
-export default ProductsBox;
+export default ALLProductsBrands;
 
 
 
-// <Box mt="2rem">
-// <Box display="flex" justifyContent="space-between" px="2rem">
-//   <Text fontWeight={"400"} lineHeight={"26px"} fontSize={"22px"}>
-//     cards
-//   </Text>
-//   <Link href="http://localhost:3000/allProducts" target="_blank">
-//     <Button
-//       bgColor="#ff6f61"
-//       _hover={{ bg: "#ff6f61" }}
-//       width="fit-content"
-//       color="white"
-//     >
-//       SEE ALL
-//     </Button>
-//   </Link>
-// </Box>
-// {/* columns={[4 ,2,3,3]} */}
-// <Container maxW="80rem" centerContent>
-// <SimpleGrid >
-//   {datalist.map(function (data) {
-//     const { id,title,img, price,safelogo,dis1,dis2,} = data;
-//     return (
-//       <Card
-//         key={id}
-//         title={title}
-//         price={price}
-//         safelogo={safelogo}
-//         dis1={dis1}
-//         dis2={dis2}
-//         img={img}
-        
-        
-//       />
-//     );
-//   })}
-// </SimpleGrid>
-// </Container>
-// </Box>
