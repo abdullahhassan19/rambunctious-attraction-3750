@@ -1,4 +1,4 @@
-import { Box, Button, HStack, Image, Spacer, Text } from "@chakra-ui/react";
+import { Box, Button, HStack, Image, Text } from "@chakra-ui/react";
 import React from "react";
 
 const Covid19Banner = () => {
