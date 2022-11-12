@@ -1,5 +1,5 @@
 import React from "react";
-import { Box, Flex, HStack, Image, Text, VStack } from "@chakra-ui/react";
+import { Box,  HStack, Image, Text, VStack } from "@chakra-ui/react";
 import Covid19Banner from "./Covid19Banner";
 const Covid19Header = () => {
   return (
