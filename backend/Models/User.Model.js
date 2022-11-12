@@ -4,7 +4,10 @@ const CoustomerSchema = new mongoose.Schema({
   name: { type: String, required: true },
   email: { type: String, required: true },
   password: { type: String, required: true },
-  role:{type:String}
+  role: String,
+  mobile: String,
+  token: String,
+  cart: { type: Array, default: [] },
 });
 
 const CoustomerModel = mongoose.model("PharmaUserModel", CoustomerSchema);
