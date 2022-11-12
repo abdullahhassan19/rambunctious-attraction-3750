@@ -1,6 +1,7 @@
 import React from "react";
-import { Box, Flex, HStack, Image, Text, VStack } from "@chakra-ui/react";
+import { Box, HStack, Image, Spacer, Text, VStack } from "@chakra-ui/react";
 import Covid19Banner from "./Covid19Banner";
+import Covid19Essential from "./Covid19Essential";
 const Covid19Header = () => {
   return (
     <>
@@ -46,9 +47,11 @@ const Covid19Header = () => {
           </VStack>
         </HStack>
       </Box>
-      <VStack justifyContent={"center"} my="2rem" mx="5rem">
+      <Box display={"flex"} flexDir="column" my="2rem" mx="5rem">
         <Covid19Banner />
-      </VStack>
+    
+        <Covid19Essential />
+      </Box>
     </>
   );
 };
