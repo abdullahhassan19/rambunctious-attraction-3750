@@ -44,8 +44,8 @@ const Covid19Essential = () => {
           </Text>
         </Box>
         <SimpleGrid columns={[1,3]} spacing="40px">
-          {CovidProduct.map((el) => {
-            return <Covid19ProductCard src={el.src} alt={el.alt} />;
+          {CovidProduct.map((el,i) => {
+            return <Covid19ProductCard src={el.src} key={i} alt={el.alt} />;
           })}
         </SimpleGrid>
       </Box>

@@ -1,8 +1,11 @@
 import React from "react";
-import { Box, HStack, Image,  Text, VStack } from "@chakra-ui/react";
+import { Box, HStack, Image, Text, VStack } from "@chakra-ui/react";
 import Covid19Banner from "./Covid19Banner";
 import Covid19Essential from "./Covid19Essential";
 import Covid19Management from "./Covid19Management";
+import { BannerData } from "./Covid19BannerData";
+import Covid19ReUsableBanner from "./Covid19ReUsableBanner";
+import Covid19HelpNumber from "./Covid19HelpNumber";
 const Covid19Header = () => {
   return (
     <>
@@ -53,6 +56,22 @@ const Covid19Header = () => {
 
         <Covid19Essential />
         <Covid19Management />
+        <Box>
+          {BannerData.map((el, i) => {
+            return (
+              <Covid19ReUsableBanner
+                key={i}
+                ImgSrc={el.ImgSrc}
+                headerText={el.headerText}
+                Paragraph={el.Paragraph}
+                btnText={el.btnText}
+                fontSize={el.fontSize}
+                paraFontSize={el.paraFontSize}
+              />
+            );
+          })}
+        </Box>
+        <Covid19HelpNumber />
       </Box>
     </>
   );
