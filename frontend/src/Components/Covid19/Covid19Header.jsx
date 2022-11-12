@@ -72,6 +72,14 @@ const Covid19Header = () => {
           })}
         </Box>
         <Covid19HelpNumber />
+        <Box>
+          <Covid19ReUsableBanner ImgSrc={"https://marketing-compaigns.s3.ap-south-1.amazonaws.com/emailer/Corona_landing_page/consult-doc.png"}
+                headerText={"Think you have fever, cold or cough?"}
+                Paragraph={"Talk to our experts online"}
+                btnText={"CONSULT NOW"}
+                fontSize={"2.2vw"}
+                paraFontSize={"1.8vw"} />
+        </Box>
       </Box>
     </>
   );

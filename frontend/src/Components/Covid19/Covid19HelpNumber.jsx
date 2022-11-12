@@ -10,6 +10,7 @@ import {
   Tr,
 } from "@chakra-ui/react";
 import React from "react";
+import { HelpLineNumber } from "./Covid19HelplineNumber";
 
 const Covid19HelpNumber = () => {
   return (
@@ -24,7 +25,7 @@ const Covid19HelpNumber = () => {
       </Text>
       <Box>
         <TableContainer>
-          <Table variant={"striped"} colorScheme="linkedin">
+          <Table>
             <Thead>
               <Tr>
                 <Th
@@ -35,17 +36,25 @@ const Covid19HelpNumber = () => {
                 >
                   State/UT
                 </Th>
-                <Th  bgColor={"#000"}
+                <Th
+                  bgColor={"#000"}
                   color="#ff6f61"
                   fontSize={"1.2vw"}
-                  fontWeight="bold">State Helpline No. </Th>
+                  fontWeight="bold"
+                >
+                  State Helpline No.{" "}
+                </Th>
               </Tr>
             </Thead>
             <Tbody>
-              <Tr>
-                <Td>Gujarat</Td>
-                <Td>104</Td>
-              </Tr>
+              {HelpLineNumber.map((el) => {
+                return (
+                  <Tr bgColor={el.bgColor}>
+                    <Td>{el.State}</Td>
+                    <Td>{el.Number}</Td>
+                  </Tr>
+                );
+              })}
             </Tbody>
           </Table>
         </TableContainer>
