@@ -82,6 +82,7 @@ export const FeaturedBrands = [
 
 export const datalist = [
     {
+      Link:"https://www.1mg.com/otc/sugar-free-gold-low-calorie-sweetener-otc131475",
       id: "1",
       title: "Comprehensive Gold Full B...",
       img: "https://onemg.gumlet.io/diagnostics/b1f8f81e-5677-11ec-9fd9-0a65f29f7340.png?format=auto",
@@ -96,7 +97,7 @@ export const datalist = [
     },
     {
       id: "1",
-      title: "Comprehensive Gold Full B...",
+      title: "Fever Package Extensive...",
       img: "https://onemg.gumlet.io/diagnostics/b1f8f81e-5677-11ec-9fd9-0a65f29f7340.png?format=auto",
       price: "2099",
       safelogo:"https://onemg.gumlet.io/safe_bjisiz.svg",
@@ -109,7 +110,7 @@ export const datalist = [
     },
     {
       id: "1",
-      title: "Comprehensive Gold Full B...",
+      title: "Blood Checkup...",
       img: "https://onemg.gumlet.io/diagnostics/b1f8f81e-5677-11ec-9fd9-0a65f29f7340.png?format=auto",
       price: "2099",
       safelogo:"https://onemg.gumlet.io/safe_bjisiz.svg",
@@ -319,6 +320,70 @@ export const topSlidingImage = [
   },
 ];
 
+export const Sugarsubstitutes
+= [{
+    link: "/otc/tata-1mg-diabetes-care-combo-pack-for-cholesterol-blood-sugar-management-otc795842",
+    img: "https://onemg.gumlet.io/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/cropped/bpgstknem0udqzp9p4dm.jpg",
+    name: "Sugar Free Gold Low Calorie Sweetener",
+    qty: " bottle of 500 pellets",
+    strikePrice: "240",
+    discount: "20% off",
+    price: "249",
+  },
+  {
+    link: "/otc/tata-1mg-diabetes-care-combo-pack-for-cholesterol-blood-sugar-management-otc795842",
+    img: "So Sweet Stevia Sugar Free Tablet",
+    name: "Sugar Free Gold Low Calorie Sweetener",
+    qty: " bottle of 500 pellets",
+    strikePrice: "95",
+    discount: "20% off",
+    price: "117",
+  },
+  {
+    link: "/otc/tata-1mg-diabetes-care-combo-pack-for-cholesterol-blood-sugar-management-otc795842",
+    img: "https://onemg.gumlet.io/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/cropped/d8wetugtajdasve7gg0u.jpg",
+    name: "Sugar Free Gold  Sweetener",
+    qty: " bottle of 500 pellets",
+    strikePrice: "240",
+    discount: "20% off",
+    price: "249",
+  },
+  {
+    link: "/otc/tata-1mg-diabetes-care-combo-pack-for-cholesterol-blood-sugar-management-otc795842",
+    img: "https://onemg.gumlet.io/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/kuhv7g7ouhb8jwhvsgmk.jpg",
+    name: "So Sweet Xylitol Powder Natural Sweetener",
+    qty: " bottle of 200 pellets",
+    strikePrice: "1100",
+    discount: "20% off",
+    price: "955",
+  },
+  {
+    link: "/otc/tata-1mg-diabetes-care-combo-pack-for-cholesterol-blood-sugar-management-otc795842",
+    img: "https://onemg.gumlet.io/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/cropped/tqblkrwqqefunrkiut4r.jpg",
+    qty: " bottle of 500 pellets",
+    strikePrice: "240",
+    discount: "20% off",
+    price: "249",
+  },
+  {
+    link: "/otc/tata-1mg-diabetes-care-combo-pack-for-cholesterol-blood-sugar-management-otc795842",
+    img: "https://onemg.gumlet.io/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/lybhdtfz2jccygh5lgpw.jpg",
+    name: "Sugar Free Gold Low Calorie Sweetener",
+    qty: " bottle of 500 pellets",
+    strikePrice: "240",
+    discount: "20% off",
+    price: "249",
+  },
+  {
+    link: "/otc/tata-1mg-diabetes-care-combo-pack-for-cholesterol-blood-sugar-management-otc795842",
+    img: "https://onemg.gumlet.io/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/cropped/tdgca7cltce0rign0srx.jpg",
+    name: "Sugar Free Gold Low Calorie Sweetener",
+    qty: " bottle of 500 pellets",
+    strikePrice: "240",
+    discount: "20% off",
+    price: "349",
+  }
+]
 export const PopularCombo = [
   
   {
@@ -418,7 +483,7 @@ export const topSellingProducts = [
   {
     link: "https://www.1mg.com/otc/baidyanath-chyawanprash-special-immunity-booster-for-omniprotection-with-madhu-free-50gm-otc698062",
     img: "https://onemg.gumlet.io/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/r4q79nrsaa1tfaxfvbn7.jpg",
-    name: "Baidyanath Chyawanprash Special Immunity Booster for OmniProtection with Madhu Free 50gm",
+    name: "Baidyanath Chyawanprash Special Immunity Booster ",
     qty: "jar of 950 gm Paste",
     strikePrice: "395",
     discount: "15% off",
