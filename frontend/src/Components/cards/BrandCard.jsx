@@ -1,4 +1,4 @@
-import { Box, Image, Text } from "@chakra-ui/react";
+import { Box, Image, Text,Link } from "@chakra-ui/react";
 import React from "react";
 // import { Box } from "@chakra-ui/react";
 
@@ -24,6 +24,7 @@ const BrandsCard = ({ something }) => {
   };
   return (
     <Box p="2" h="fitContent" bg="white">
+     
       <Carousel
         swipeable={true}
         draggable={true}
@@ -40,6 +41,7 @@ const BrandsCard = ({ something }) => {
         itemClass="carousel-item-padding-40-px"
       >
         {something.map((e, i) => (
+
           <Box
             key={i}
             h="95%"
@@ -52,8 +54,10 @@ const BrandsCard = ({ something }) => {
             }}
             cursor="pointer"
           >
+             <Link href="http://localhost:3000/products" target="_blank">
             <Image w={"70%"} m="auto" src={e.img} />
             <Text>{e.title}</Text>
+            </Link>
           </Box>
         ))}
       </Carousel>
