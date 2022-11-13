@@ -42,7 +42,7 @@ const LabTests = () => {
                 </div>
             </div>
             <div id="popular">
-                <h3>Book A Lab Test</h3>
+                <h3 className='heading'>Book A Lab Test</h3>
                 <div id="popular1">
                     <div className='popular2'>
                         <div>
@@ -292,10 +292,18 @@ font-weight: none;
     width: 80%;
     margin-top: 20px;
 }
+@media only screen and (max-width: 1160px) { 
+    #popular1{
+        flex-wrap: wrap;
+}
+#FeaturedLabs>div:nth-child(2){
+    flex-wrap: wrap;
+}
+}
 .popular2{
-    width: 80%;
+width: 80%;
 border: 1px solid rgb(232,234,236);
-padding: 15px 0px 0px 30px;
+padding: 15px 0px 20px 30px;
 }
 .popular2>div:nth-child(1){
 display: flex;
@@ -348,11 +356,18 @@ margin-left: 70px;
     color: #212121;
     cursor: pointer;
 }
+#popularPackage>div:hover{
+    background-color: #616161;
+    color: white;
+}
 #FeaturedLabs{
-    margin-left: 70px;
-    margin-top: 70px;
+background-color: rgb(251, 251, 251);
+padding-top: 30px;
+margin-top: 30px;
 }
 #FeaturedLabs>div:nth-child(1){
+    width: 90%;
+margin: auto;
     font-size: 20px;
     line-height: 1;
     margin-bottom: 30px;
@@ -365,6 +380,7 @@ margin-left: 70px;
 #FeaturedLabs>div:nth-child(2){
     display: flex;
     justify-content: space-between;
+    padding: 0px 60px 60px 60px;
 }
 #FeaturedLabs>div:nth-child(2)>div>div:nth-child(1){
     border: 1px solid rgb(232,234,236);
@@ -406,8 +422,10 @@ margin-left: 70px;
     text-align: left;
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    margin-top: 40px;
+    width: 90%;
+margin: auto;
     gap: 80px;
+    margin-top: 60px;
 }
 .heading{
     text-align: left;
@@ -422,13 +440,19 @@ margin-left: 70px;
     padding-top: 20px;
 } 
 #sliderWhole{
-margin-top: 40px;
+    width: 90%;
+margin: auto;
+margin-top: 60px;
 }
 #partner{
+width: 90%;
+margin: auto;
 margin-top: 60px;
 }
 #contact{
 margin-top: 60px;
+background-color: rgb(251,251,251);
+padding: 60px 0px;
 }
 #contact>div{
     text-align: center;
@@ -468,21 +492,30 @@ margin-top: 60px;
     font-size: 18px;
     font-weight: 700;
     color: #212121;  
-margin-top: 40px;
+    margin: auto;
+    width: 90%;
+margin-top: 60px;
 padding-bottom: 20px;
 }
 .miniHeading{
 font-weight: bold;
 text-align: left;
+margin: auto;
+    width: 90%;
 margin-top: 20px;
 }
 .para{
 text-align: left;
 font-size: 16px;
+margin: auto;
+    width: 90%;
 margin-top: 20px;
+
 }
 .lastPara{
     text-align: left;
 font-size: 16px;   
+margin: auto;
+    width: 90%;
 }
 `

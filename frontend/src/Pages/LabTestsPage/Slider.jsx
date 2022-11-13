@@ -58,7 +58,7 @@ display: flex;
 justify-content: space-between;
 align-items: center;
 width: 90%;
-gap: 10px;
+gap: 30px;
 margin: auto;
 margin-top: 30px;
 h3{
