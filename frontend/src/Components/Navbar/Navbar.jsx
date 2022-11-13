@@ -17,7 +17,8 @@ import {
   Select,
   Text,
 } from "@chakra-ui/react";
-import { setCacheNameDetails } from "workbox-core";
+import { useEffect } from "react";
+
 
 function Login({ setauthrole }) {
   const { isOpen, onOpen, onClose } = useDisclosure();
@@ -37,7 +38,7 @@ function Login({ setauthrole }) {
   const handleloginsave = () => {
     console.log(data);
 
-    fetch("https://eavluation4backend-production.up.railway.app/login", {
+    fetch("https://nemprojectbackend-production.up.railway.app/login", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -52,8 +53,9 @@ function Login({ setauthrole }) {
           setMsg(res.msg);
         } else {
           console.log(res);
-          // setCacheNameDetails(res.name)
-
+          localStorage.setItem("token",res.token);
+          localStorage.setItem("userId", res.userId);
+          localStorage.setItem("name", res.name);
           setauthrole(true);
           onClose();
         }
@@ -133,7 +135,7 @@ function Signup() {
   };
   const handlesignupsave = () => {
     console.log(data);
-    fetch("https://eavluation4backend-production.up.railway.app/signup", {
+    fetch("https://nemprojectbackend-production.up.railway.app/signup", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -206,6 +208,22 @@ function Signup() {
 const Navbar = () => {
   const navigate = useNavigate();
   const [authrole, setauthrole] = useState(false);
+  const handleLogout=()=>{
+      localStorage.removeItem("token")
+      localStorage.removeItem("userId");
+      localStorage.removeItem("name");
+  }
+  const gettoken=()=>{
+    const token = localStorage.getItem("token");
+    if (token) {
+      setauthrole(true);
+    } else {
+      setauthrole(false);
+    }
+  }
+  useEffect(()=>{
+    gettoken()
+  },[])
   return (
     <div>
       <div className="header">
@@ -265,8 +283,8 @@ const Navbar = () => {
               </div>
             ) : (
               <div className="login_signup">
-                <span id="login_button">Logout</span> |{" "}
-                <span id="signup_button">Create</span>
+                <span id="login_button" onClick={handleLogout}>Logout</span> |{" "} 
+                <span id="signup_button" >Create</span>
               </div>
             )}
 
