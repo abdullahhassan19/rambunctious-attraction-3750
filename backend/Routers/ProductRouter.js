@@ -3,6 +3,9 @@ const ProductRouter = Router();
 const { Authentication } = require("../Midlewares/Authentication");
 const { ProductModel } = require("../Models/Data.Model");
 const { UserModel } = require("../Models/User.Model");
+
+
+
 ProductRouter.post("/:userId/create", Authentication, async (req, res) => {
   const userId = req.params.userId;
   const {
