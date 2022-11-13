@@ -1,11 +1,16 @@
+.CartRightMAin{
+    margin-top: 0px;
+}
 .CartRightMAin > div{
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     /* border: 1px solid black; */
+    /* height: 180px; */
     gap: 10px;
     margin: 10px;
 }
 .CartRightMAinF{
     padding: 5%;
+
 }
 .CartRightMAinFF{
     background-color: #913d3c;
@@ -16,12 +21,13 @@
     text-align: center;
 }
 .CartRightMAinF > div > h5,h3 {
-    margin-bottom: -15px;
+    margin-bottom: 0px;
     padding: 0px;
     /* border: 1px solid black; */
 }
 .CartRightMAinFButton{
     width: 100%;
+    margin-top: 10px;
     display: flex;
 }
 .CartRightMAinFButton1{
@@ -86,7 +92,7 @@
     font-size: 14px;
 }
 .CartRightMAinS > div {
-    margin-bottom: -20px;
+    margin-bottom: 0px;
 }
 
 /*    Third Div  */
@@ -95,7 +101,7 @@
 }
 .CartRightMAinTHF{
     display: flex;
-    margin-bottom: -20px;
+    margin-bottom: 0px;
 }
 .CartRightMAinTHF > div > h5 {
     font-style: normal;
