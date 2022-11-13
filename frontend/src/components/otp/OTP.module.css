@@ -1,0 +1,41 @@
+.otpMain{
+    box-shadow: rgba(136, 135, 135, 0.24) 0px 3px 8px;
+    width: 40%;
+    margin: auto;
+    text-align: center;
+    height: 400px;
+}
+.otppinInput{
+    width: 100%;
+    border: 1px solid  black;
+    margin: auto;
+    text-align: center;
+    border: 1px solid black;
+}
+.otpInputField  {
+    width: 60px;
+    font-size: 20px;
+    height: 60px;
+    text-align: center;
+
+}
+.otphstack{
+    width: 60%;
+    margin: auto;
+    /* border: 1px solid black; */
+}
+
+.getotpbtn{
+    width: 90%;
+    margin: 30px 10px 20px 10px;
+    font-size: 20px;
+    background-color: #07bc0c;
+    height: 40px;
+}
+
+.otpsubmitbn{
+    width: 90%;
+    margin: 15px 10px 20px 10px;
+    font-size: 20px;
+    height: 40px;
+}

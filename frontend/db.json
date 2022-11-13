@@ -1,0 +1,49 @@
+{
+    "medicine" : [
+        {
+            "id" : 1,
+            "name" : "Meghapen1",
+            "image" : "https://media.istockphoto.com/id/1300036753/photo/falling-antibiotics-healthcare-background.jpg?s=612x612&w=0&k=20&c=oquxJiLqE33ePw2qML9UtKJgyYUqjkLFwxT84Pr-WPk=",
+            "description" : "abc is a medicine that is used to treatment",
+            "rating" : 101,
+            "price" : 300,
+            "priceOff" : 10
+        },
+        {
+            "id" : 2,
+            "name" : "Meghapen2",
+            "image" : "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bWVkaWNpbmV8ZW58MHx8MHx8&w=1000&q=80",
+            "description" : "abc is a medicine that is used to treatment",
+            "rating" : 101,
+            "price" : 300,
+            "priceOff" : 10
+        },
+        {
+            "id" : 3,
+            "name" : "Meghapen3",
+            "image" : "https://images.unsplash.com/photo-1607619056574-7b8d3ee536b2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bWVkaWNpbmVzfGVufDB8fDB8fA%3D%3D&w=1000&q=80",
+            "description" : "abc is a medicine that is used to treatment",
+            "rating" : 101,
+            "price" : 300,
+            "priceOff" : 10
+        },
+        {
+            "id" : 4,
+            "name" : "Meghapen4",
+            "image" : "https://media.istockphoto.com/id/943878650/photo/heap-of-medical-pills-in-white-blue-and-other-colors-pills-in-plastic-package-concept-of.jpg?s=612x612&w=0&k=20&c=WVOov-ey13jF7AHEkgl8UfEjwWtvkz97_Njv5ZO6EoY=",
+            "description" : "abc is a medicine that is used to treatment",
+            "rating" : 101,
+            "price" : 300,
+            "priceOff" : 10
+        },
+        {
+            "id" : 5,
+            "name" : "Meghapen5",
+            "image" : "https://www.nps.org.au/assets/_750x468_crop_center-center_75_none/GettyImages-862433964.jpg",
+            "description" : "abc is a medicine that is used to treatment",
+            "rating" : 101,
+            "price" : 300,
+            "priceOff" : 10
+        }
+    ]
+}
