@@ -18,11 +18,13 @@ const OTP = () => {
 
     const handleClick = () => {
         if (otp == 2) {
-            toast.success("Your Payment has been Done", {
-                position: toast.POSITION.TOP_CENTER
-            })
             Navigate("/cart")
-        }
+            }
+        else{
+            toast.error("Your OTP is wrong", {
+                position: toast.POSITION.TOP_CENTER
+        })
+    }
     }
 
 

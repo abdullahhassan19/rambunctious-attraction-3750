@@ -1,10 +1,11 @@
 import { Route, Routes } from 'react-router-dom';
 import './App.css';
-import Address from './components/address/Address';
 import Cart from './components/cart/Cart';
-import OTP from './components/otp/OTP';
-import Payment from './components/payment/Payment';
 import Summary from './components/summary/Summary';
+import Address from './components/address/Address';
+import Payment from './components/payment/Payment';
+import OTP from './components/otp/OTP';
+
 
 function App() {
   return (

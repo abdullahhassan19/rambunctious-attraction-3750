@@ -61,7 +61,7 @@ const Card = () => {
                         </div>
                         <div className={style.inputBox}>
                             <span>Security code</span>
-                            <input type="text" maxlength="4" className={style.cvvinput} placeholder='cvv' />
+                            <input type="text" maxlength="3" className={style.cvvinput} placeholder='cvv' />
                         </div>
                     </div>
                     <input type="submit" value="Make-Payment" className={style.submitbtn} onClick={() => handlePaymentSubmit()}/>

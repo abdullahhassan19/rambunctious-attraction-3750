@@ -44,6 +44,8 @@ const CartLeft = () => {
     setQty(qty + 1)
   }
 
+
+
   const handleDecrement = () => {
     setQty(qty - 1)
   }
