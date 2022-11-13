@@ -1,0 +1,36 @@
+.summaryMain{
+    width: 80%;
+    margin: auto;
+
+}
+.summaryMainMa{
+    width: 60%;
+    padding: 3%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.summaryMainF {
+    display: flex;
+    gap: 20px;
+    /* border: 1px solid black; */
+    /* margin: auto; */
+}
+.summaryMainF > div {
+    margin-left: auto;
+}
+/* .summaryMainFAdd{
+    margin-left: auto;
+} */
+
+.summaryMainS > div > button {
+    width: 100%;
+    padding: 3%;
+    font-size: 17px;
+}
+.summaryMainSf {
+    border: 1px solid #ff6f61;
+    background-color: rgb(240, 255, 243);
+}
+.summaryMainSs {
+    border: 1px solid black;
+    background-color: #ff6f61;
+}

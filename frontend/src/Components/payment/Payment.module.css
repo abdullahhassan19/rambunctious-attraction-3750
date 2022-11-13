@@ -1,0 +1,138 @@
+.paymentMain{
+    display: flex;
+    gap: 40px;
+}
+
+.UPI p {
+    font-size: 30px;
+}
+
+.icons {
+    font-size: 50px;
+    margin-right: 10px;
+    cursor: pointer;
+
+}
+
+.upi-icons {
+    box-sizing: border-box;
+    display: block;
+    font-size: 14px;
+}
+
+.UPI {
+    /* width: 400px; */
+    background-color: #fff3e3;
+    border: 2px solid #fff3e3;
+}
+
+.paymentmethod {
+    background-color: #fff3e3;
+    border: 2px solid #fff3e3;
+    background-color: #fff3e3;
+    padding: 20px 0 20px 15px;
+    height: 100%;
+    /* padding: 40px; */
+    /* width: 500px; */
+}
+
+.upi p {
+    font-weight: 400;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.savedupi h1 {
+    font-weight: 500;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+
+.savedupi input {
+    font-size: 16px;
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.savedupi p {
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+.savedupi .check {
+    font-size: 16px;
+}
+
+.pay {
+    height: 2.5rem;
+    line-height: 1.1rem;
+    font-size: .875rem;
+    color: #fff;
+    text-align: center;
+    border: 0;
+    padding: 10px !important;
+    cursor: pointer;
+    background-color: #ff6f61;
+    text-transform: uppercase;
+    display: inline-block;
+    border-radius: 4px;
+}
+
+.deleviry {
+    background-color: #fff;
+    border: 2px solid #ff6f61;
+    border-radius: 3px;
+    padding: 15px;
+    width: 350px;
+    margin-top: 20px;
+    height: 50px;
+}
+
+.paytm {
+    background-color: #fff;
+    border: 2px solid #ff6f61;
+    border-radius: 3px;
+    padding: 15px;
+    width: 350px;
+    margin-top: 20px;
+    height: 110px;
+    box-shadow: 0 0 0 1px #ff6f61;
+}
+
+.freecharge {
+    background-color: #fff;
+    border: 2px solid #ff6f61;
+    border-radius: 3px;
+    padding: 15px;
+    width: 350px;
+    margin-top: 20px;
+    height: 150px;
+    box-shadow: 0 0 0 1px #ff6f61;
+}
+
+.phonepe {
+    background-color: #fff;
+    border: 2px solid #ff6f61;
+    border-radius: 3px;
+    padding: 15px;
+    width: 250px;
+    margin-top: 20px;
+    height: 50px;
+    box-shadow: 0 0 0 1px #ff6f61;
+}
+
+
+.paymentMainS{
+    display: flex;
+    gap: 20px;
+}
+.paymentMainSF{
+    width: 100%;
+    /* border: 1px solid black; */
+    padding: 40px;
+    font-size: 25px;
+    margin-bottom: 10px;
+    box-shadow: rgba(136, 135, 135, 0.24) 0px 3px 8px;
+
+}
