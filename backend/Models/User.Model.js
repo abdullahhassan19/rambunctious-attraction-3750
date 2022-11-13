@@ -1,12 +1,15 @@
-const mongoose = require("mongoose");
+const { Schema, model } = require("mongoose");
 
-const CoustomerSchema = new mongoose.Schema({
+const UserSchema = Schema({
   name: { type: String, required: true },
   email: { type: String, required: true },
   password: { type: String, required: true },
-  role:{type:String}
+  role: { type: String },
+  token: { type: String },
+  cart: { type: Array, default: [] },
+  userId: { type: String },
 });
 
-const CoustomerModel = mongoose.model("PharmaUserModel", CoustomerSchema);
+const UserModel = model("user", UserSchema);
 
-module.exports = { CoustomerModel };
+module.exports = { UserModel };

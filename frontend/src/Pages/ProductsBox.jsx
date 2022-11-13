@@ -72,13 +72,6 @@ const ALLProductsBrands = () => {
        
       </Box>
 
-
-
-
-
-     
-      
-
       <Box mt="2rem">
         <Box display="flex" justifyContent="space-between" px="2rem">
           <Text fontWeight={"400"} lineHeight={"26px"} fontSize={"22px"}>
