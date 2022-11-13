@@ -56,6 +56,7 @@ function Login({ setauthrole }) {
           localStorage.setItem("token",res.token);
           localStorage.setItem("userId", res.userId);
           localStorage.setItem("name", res.name);
+          localStorage.setItem("role", res.role);
           setauthrole(true);
           onClose();
         }
@@ -187,9 +188,9 @@ function Signup() {
 
             <FormControl mt={4}>
               <FormLabel>Role</FormLabel>
-              <Select placeholder="Role" onChange={handleinput}>
-                <option value="customer">customer</option>
+              <Select placeholder="Role" name="role" onChange={handleinput}>
                 <option value="Seller">Seller</option>
+                <option value="Customer">Customer</option>
               </Select>
             </FormControl>
           </ModalBody>
@@ -205,25 +206,165 @@ function Signup() {
     </>
   );
 }
+
+function Create() {
+  const { isOpen, onOpen, onClose } = useDisclosure();
+
+  const initialRef = React.useRef(null);
+  const finalRef = React.useRef(null);
+  const [data, setdata] = useState({});
+  const handleinput = (e) => {
+    const { name, value } = e.target;
+    setdata({
+      ...data,
+      [name]: value,
+    });
+  };
+  const handleaddsave = () => {
+    // console.log(data);
+    const userId = localStorage.getItem("userId");
+    const token = localStorage.getItem("token");
+    console.log(userId)
+    fetch(
+      `https://nemprojectbackend-production.up.railway.app/${userId}/create`,
+      {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          Authorization: token,
+        },
+        body: JSON.stringify(data),
+      }
+    )
+      .then((res) => res.json())
+      .then((res) => console.log(res));
+
+    onClose();
+  };
+
+  return (
+    <>
+      <Button onClick={onOpen}>Create</Button>
+      <Modal
+        initialFocusRef={initialRef}
+        finalFocusRef={finalRef}
+        isOpen={isOpen}
+        onClose={onClose}
+      >
+        <ModalOverlay />
+        <ModalContent>
+          <ModalHeader>Create your Product</ModalHeader>
+          <ModalCloseButton />
+          <ModalBody pb={6}>
+            <FormControl>
+              <FormLabel>Product Name</FormLabel>
+              <Input
+                ref={initialRef}
+                placeholder="Name"
+                name="productname"
+                onChange={handleinput}
+              />
+            </FormControl>
+
+            <FormControl mt={4}>
+              <FormLabel>Price</FormLabel>
+              <Input placeholder="Price" name="price" onChange={handleinput} />
+            </FormControl>
+            <FormControl mt={4}>
+              <FormLabel>StrikedPrice</FormLabel>
+              <Input
+                placeholder="strikedPrice"
+                name="strikedPrice"
+                onChange={handleinput}
+              />
+            </FormControl>
+
+            <FormControl mt={4}>
+              <FormLabel>ImageUrl</FormLabel>
+              <Input
+                placeholder="imageUrl"
+                name="imageUrl"
+                onChange={handleinput}
+              />
+            </FormControl>
+
+            <FormControl mt={4}>
+              <FormLabel>Product Highlights</FormLabel>
+              <Input
+                placeholder="product Highlights"
+                name="prodHighlights"
+                onChange={handleinput}
+              />
+            </FormControl>
+            <FormControl mt={4}>
+              <FormLabel>long Description </FormLabel>
+              <Input
+                placeholder="long Description "
+                name="longDesc"
+                onChange={handleinput}
+              />
+            </FormControl>
+            <FormControl mt={4}>
+              <FormLabel>short Description </FormLabel>
+              <Input
+                placeholder="short Description "
+                name="shortDesc"
+                onChange={handleinput}
+              />
+            </FormControl>
+            <FormControl mt={4}>
+              <FormLabel>Ratings </FormLabel>
+              <Input
+                placeholder="ratings "
+                name="ratings"
+                onChange={handleinput}
+              />
+            </FormControl>
+            <FormControl mt={4}>
+              <FormLabel>brand </FormLabel>
+              <Input placeholder="Brand " name="brand" onChange={handleinput} />
+            </FormControl>
+
+          </ModalBody>
+
+          <ModalFooter>
+            <Button colorScheme="blue" mr={3} onClick={handleaddsave}>
+              Add Product
+            </Button>
+            <Button onClick={onClose}>Cancel</Button>
+          </ModalFooter>
+        </ModalContent>
+      </Modal>
+    </>
+  );
+}
 const Navbar = () => {
   const navigate = useNavigate();
   const [authrole, setauthrole] = useState(false);
+  const [role,setrole]=useState(false)
   const handleLogout=()=>{
       localStorage.removeItem("token")
       localStorage.removeItem("userId");
       localStorage.removeItem("name");
+      localStorage.removeItem("role");
+      setauthrole(false)
+      setrole(false)
   }
   const gettoken=()=>{
     const token = localStorage.getItem("token");
+    const role = localStorage.getItem("role");
     if (token) {
       setauthrole(true);
     } else {
       setauthrole(false);
     }
+    if (role === "Seller") {
+      setrole(true)
+    }
   }
-  useEffect(()=>{
-    gettoken()
-  },[])
+  useEffect(() => {
+    gettoken();
+  });
   return (
     <div>
       <div className="header">
@@ -283,8 +424,19 @@ const Navbar = () => {
               </div>
             ) : (
               <div className="login_signup">
-                <span id="login_button" onClick={handleLogout}>Logout</span> |{" "} 
-                <span id="signup_button" >Create</span>
+                <span id="login_button" onClick={handleLogout}>
+                  Logout
+                </span>{" "}
+                |{" "}
+                {role ? (
+                  <span id="signup_button">
+                    <Create />
+                  </span>
+                ) : (
+                  <span id="signup_button">
+                    
+                  </span>
+                )}
               </div>
             )}
 
