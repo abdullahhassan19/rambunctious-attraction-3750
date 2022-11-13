@@ -1,4 +1,4 @@
-import { Box, Image, Text } from "@chakra-ui/react";
+import { Box, Image, Link, Text } from "@chakra-ui/react";
 import React from "react";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
@@ -52,11 +52,13 @@ const CheckupCard = ({ something, prodVal = 4 }) => {
             }}
             cursor="pointer"
           >
+             <Link href="http://localhost:3000/products" target="_blank">
             <Box>
-
+           
             <Text fontSize={"14px"}>{e.title}
              <span><Image width={"10px"}src={e.safelogo} alt="logo"/></span></Text>
             <Image h={"30%"} w={"30%"} m="auto" src={e.img} />
+           
             </Box>
           
             <Box>
@@ -69,9 +71,10 @@ const CheckupCard = ({ something, prodVal = 4 }) => {
                 </span>
               </Text>
              
-              
+             
              
             </Box>
+            </Link>
           </Box>
         ))}
       </Carousel>
