@@ -3,6 +3,7 @@ import { Routes, Route } from "react-router-dom";
 import Address from "../Components/address/Address";
 import Cart from "../Components/cart/Cart";
 import CartPage from "../Pages/CartPage";
+import Covid19 from "../Pages/Covid19";
 import HomePage from "../Pages/HomePage";
 import { LabTests } from "../Pages/LabTestsPage/LabTests";
 
@@ -27,10 +28,14 @@ const AllRoutes = () => {
         <Route path='/address' element={<Address />} />
         <Route path='/payment' element={<Payment />} />
         <Route path='/payment/otp' element={<OTP />} />
+        <Route path="/askdoctor" element={<LabTests />} />
+        <Route path="/ayurveda" element={<LabTests />} />
+        <Route path="/careplan" element={<LabTests />} />
+        <Route path="/covid" element={<Covid19 />} />
       </Routes>
     </>
   );
 };
-// Category
+
 
 export default AllRoutes;
