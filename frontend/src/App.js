@@ -2,14 +2,12 @@
 import './App.css';
 
 
-// import AllRoutes from './AllRoutes/AllRoutes';
-import { LabTests } from './Pages/LabTestsPage/LabTests';
+import AllRoutes from './AllRoutes/AllRoutes';
 
 function App() {
   return (
     <div className="App">
-      {/* <AllRoutes/> */}
-      <LabTests />
+      <AllRoutes />
     </div>
   );
 }
