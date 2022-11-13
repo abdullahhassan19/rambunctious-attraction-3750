@@ -18,6 +18,10 @@ const AllRoutes = () => {
         <Route path="/products" element={<AllProductPage />} />
         <Route path="/product/:id" element={<SingleProductPage />} />
         <Route path="/labtests" element={<LabTests />} />
+        <Route path="/askdoctor" element={<LabTests />} />
+        <Route path="/covid" element={<LabTests />} />
+        <Route path="/ayurveda" element={<LabTests />} />
+        <Route path="/careplan" element={<LabTests />} />
       </Routes>
     </>
   );
