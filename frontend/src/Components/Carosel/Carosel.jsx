@@ -11,7 +11,7 @@ function Carosel() {
     <Box w={"70%"}>
       <AliceCarousel
         autoPlay
-        autoPlayInterval="3000"
+        autoPlayInterval="2`000"
         disableButtonsControls="true"
         disableDotsControls="true"
       >
