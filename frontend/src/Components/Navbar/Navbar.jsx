@@ -185,13 +185,13 @@ function Signup() {
               />
             </FormControl>
 
-            {/* <FormControl mt={4}>
+            <FormControl mt={4}>
               <FormLabel>Role</FormLabel>
               <Select placeholder="Role" onChange={handleinput}>
                 <option value="customer">customer</option>
                 <option value="Seller">Seller</option>
               </Select>
-            </FormControl> */}
+            </FormControl>
           </ModalBody>
 
           <ModalFooter>
