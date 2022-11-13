@@ -1,6 +1,7 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
 import CartPage from "../Pages/CartPage";
+import Covid19 from "../Pages/Covid19";
 import HomePage from "../Pages/HomePage";
 import { LabTests } from "../Pages/LabTestsPage/LabTests";
 
@@ -19,13 +20,13 @@ const AllRoutes = () => {
         <Route path="/product/:id" element={<SingleProductPage />} />
         <Route path="/labtests" element={<LabTests />} />
         <Route path="/askdoctor" element={<LabTests />} />
-        <Route path="/covid" element={<LabTests />} />
         <Route path="/ayurveda" element={<LabTests />} />
         <Route path="/careplan" element={<LabTests />} />
+        <Route path="/covid" element={<Covid19 />} />
       </Routes>
     </>
   );
 };
-// Category
+
 
 export default AllRoutes;

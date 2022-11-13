@@ -95,7 +95,7 @@ const ALLProductsBrands = () => {
           <Text fontWeight={"400"} lineHeight={"26px"} fontSize={"22px"}>
             Featured Brands
           </Text>
-          <Link href="http://localhost:3000/allProducts" target="_blank">
+          <Link href="http://localhost:3000/products" target="_blank">
             <Button
               bgColor="#ff6f61"
               _hover={{ bg: "#ff6f61" }}
@@ -122,7 +122,7 @@ const ALLProductsBrands = () => {
           <Text fontWeight={"400"} lineHeight={"26px"} fontSize={"22px"}>
             Top Sellers From Ensure
           </Text>
-          <Link href="http://localhost:3000/allProducts" target="_blank">
+          <Link href="http://localhost:3000/products" target="_blank">
             <Button
               bgColor="#ff6f61"
               _hover={{ bg: "#ff6f61" }}
@@ -147,7 +147,7 @@ const ALLProductsBrands = () => {
           <Text fontWeight={"400"} lineHeight={"26px"} fontSize={"22px"}>
           Sugar Substitutes
           </Text>
-          <Link href="http://localhost:3000/allProducts" target="_blank">
+          <Link href="http://localhost:3000/products" target="_blank">
             <Button
               bgColor="#ff6f61"
               _hover={{ bg: "#ff6f61" }}
@@ -168,7 +168,7 @@ const ALLProductsBrands = () => {
           <Text fontWeight={"400"} lineHeight={"26px"} fontSize={"22px"}>
             Featured Brands
           </Text>
-          <Link href="http://localhost:3000/allProducts" target="_blank">
+          <Link href="http://localhost:3000/products" target="_blank">
             <Button
               bgColor="#ff6f61"
               _hover={{ bg: "#ff6f61" }}
@@ -194,7 +194,7 @@ const ALLProductsBrands = () => {
           <Text fontWeight={"400"} lineHeight={"26px"} fontSize={"22px"}>
             Top Sellers From Ensure
           </Text>
-          <Link href="http://localhost:3000/allProducts" target="_blank">
+          <Link href="http://localhost:3000/products" target="_blank">
             <Button
               bgColor="#ff6f61"
               _hover={{ bg: "#ff6f61" }}
@@ -221,7 +221,7 @@ const ALLProductsBrands = () => {
           <Text fontWeight={"400"} lineHeight={"26px"} fontSize={"22px"}>
           Popular Combo Deals
           </Text>
-          <Link href="http://localhost:3000/allProducts" target="_blank">
+          <Link href="http://localhost:3000/products" target="_blank">
             <Button
               bgColor="#ff6f61"
               _hover={{ bg: "#ff6f61" }}
@@ -242,7 +242,7 @@ const ALLProductsBrands = () => {
           <Text fontWeight={"400"} lineHeight={"26px"} fontSize={"22px"}>
             Featured Brands
           </Text>
-          <Link href="http://localhost:3000/allProducts" target="_blank">
+          <Link href="http://localhost:3000/products" target="_blank">
             <Button
               bgColor="#ff6f61"
               _hover={{ bg: "#ff6f61" }}
@@ -268,7 +268,7 @@ const ALLProductsBrands = () => {
           <Text fontWeight={"400"} lineHeight={"26px"} fontSize={"22px"}>
             Top Sellers From Ensure
           </Text>
-          <Link href="http://localhost:3000/allProducts" target="_blank">
+          <Link href="http://localhost:3000/products" target="_blank">
             <Button
               bgColor="#ff6f61"
               _hover={{ bg: "#ff6f61" }}

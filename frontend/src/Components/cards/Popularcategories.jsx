@@ -1,4 +1,4 @@
-import { Box, Image, Text } from "@chakra-ui/react";
+import { Box, Image, Link, Text } from "@chakra-ui/react";
 import React from "react";
 // import { Box } from "@chakra-ui/react";
 
@@ -52,9 +52,12 @@ const Popularcategories = ({ something }) => {
             }}
             cursor="pointer"
           >
+              <Link href="http://localhost:3000/products" target="_blank">
             <Image w={"70%"} m="auto" src={e.img} />
             <Text>{e.title}</Text>
+            </Link>
           </Box>
+         
         ))}
       </Carousel>
     </Box>
