@@ -1,0 +1,77 @@
+.leftCart {
+    margin-top: 5px;
+}
+
+.cartItemMainF {
+    padding: 3%;
+}
+.cartItemMainF1{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 3%;
+    margin-bottom: 10px;
+
+}
+.cartItemMainFF {
+    /* border: 1px solid black; */
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.cartItemMainFFRight {
+    margin-left: auto;
+}
+.cartItemMainFFRightPrice{
+    
+}
+
+.cartItemMainFS1{
+    display: flex;
+    gap: 10px;
+    font-size: 16px;
+}
+.cartItemMainFS{
+    display: flex;
+    margin-bottom: 20px;
+
+}
+.cartItemMainFS2{
+    margin-left: auto;
+    display: flex;
+}
+.cartItemMainFS2 > div {
+    margin-left: 10px;
+}
+
+/* .cartItemMainS{
+    height: 200px;
+} */
+
+/* Slider Part */
+
+.cartItemMainSM{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 5%;
+    /* margin-left: 10px; */
+
+}
+
+.cartItemMainSM {
+    margin-left: 6%;
+}
+.cartItemMainSM1 {
+    width: 90px;
+    height: 100px;
+    margin: auto;
+}
+.cartItemMainSM1 > img{
+    width: 90px;
+    height: 100px;
+}
+.cartItemMainSM5{
+    display: flex;
+}
+.cartItemMainSM5Button{
+    color: green;
+    margin-left: auto;
+    margin-right: 9%;
+}

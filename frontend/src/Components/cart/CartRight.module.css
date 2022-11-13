@@ -1,0 +1,138 @@
+.CartRightMAin > div{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    /* border: 1px solid black; */
+    gap: 10px;
+    margin: 10px;
+}
+.CartRightMAinF{
+    padding: 5%;
+}
+.CartRightMAinFF{
+    background-color: #913d3c;
+    color: white;
+    font-weight: bold;
+    width: 20%;
+    border-radius: 0px 0px 12px 0px;
+    text-align: center;
+}
+.CartRightMAinF > div > h5,h3 {
+    margin-bottom: 0;
+    padding: 0px;
+    /* border: 1px solid black; */
+}
+.CartRightMAinFButton{
+    width: 100%;
+    display: flex;
+}
+.CartRightMAinFButton1{
+    background-color: #ff6f61;
+}
+.CartRightMAinFButton > div {
+    width: 48%;
+    padding-right: 14%;
+    /* border: 1px solid black; */
+    margin: auto;
+}
+.CartRightMAinFButton > div > button {
+    width: 100%;
+    padding: 5%;
+    font-size: 16px;
+}
+
+
+/* second Div  */
+
+.CartRightMAinS{
+    padding: 5%;
+}
+.CartRightMAinSF{
+    display: flex;
+    /* border: 1px solid black; */
+    /* margin: auto; */
+    background-color: #f5f1ec;
+    padding: 5px;
+}
+.CartRightMAinSF > div {
+    font-size: 18px;
+}
+.CartRightMAinSFIcon {
+    margin-left: auto;   
+}
+.CartRightMAinSS{
+    display: flex;
+    /* border: 1px solid black; */
+}
+.CartRightMAinSS > div{
+    margin: auto;
+}
+.CartRightMAinSTH{
+    display: flex;
+    /* padding: 5px; */
+}
+.CartRightMAinSTH > div > input{
+    border: none;
+}
+.CartRightMAinSTH > div {
+    margin-left: 30px;
+}
+.CartRightMAinSFO{
+    display: flex;
+}
+.CartRightMAinSFO > div{
+    margin-left: 30px;
+}
+.CartRightMAinSFO > div > p {
+    color: #1aab2a;
+    font-size: 14px;
+}
+.CartRightMAinS > div {
+    margin-bottom: 0;
+}
+
+/*    Third Div  */
+.CartRightMAinTH{
+    padding: 5%;
+}
+.CartRightMAinTHF{
+    display: flex;
+    margin-bottom: 0;
+}
+.CartRightMAinTHF > div > h5 {
+    font-style: normal;
+}
+.CartRightMAinTHFL{
+   margin-left: auto;
+}
+.CartRightMAinTHFLL{
+    display: flex;
+    background-color: #e4f6e7;
+    border: 1px solid white;
+    /* padding: 5px; */
+}
+
+    /* Fourth Div */
+.CartRightMAinFO{
+    padding: 5%;
+    /* border: 1px solid black; */
+}
+.CartRightMAinFOF{
+    display: flex;
+
+}
+.CartRightMAinFOF > div > p{
+    font-weight: bold;
+    /* border: 1px solid black; */
+}
+.CartRightMAinFOFL{
+    margin-left: auto;
+}
+.CartRightMAinFOL{
+    background-color: #ff6f61;
+}
+.CartRightMAinFOL > button {
+    width: 100%;
+    height: 50px;
+    background-color: #ff6f61;
+    font-size: 25px;
+    color: #f5f1ec;
+}
