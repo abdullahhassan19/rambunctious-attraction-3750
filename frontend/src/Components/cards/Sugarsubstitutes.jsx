@@ -2,7 +2,7 @@ import { Box, Image, Text } from "@chakra-ui/react";
 import React from "react";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-const SugarSubstitutes = ({ something, prodVal = 6 }) => {
+const SugarSubstitutesCard = ({ something, prodVal = 6 }) => {
   const responsive = {
     desktop: {
       breakpoint: { max: 3000, min: 1024 },
@@ -74,4 +74,4 @@ const SugarSubstitutes = ({ something, prodVal = 6 }) => {
   );
 };
 
-export default SugarSubstitutes;
+export default SugarSubstitutesCard;

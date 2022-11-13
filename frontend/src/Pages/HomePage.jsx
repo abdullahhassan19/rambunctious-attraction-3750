@@ -2,8 +2,7 @@ import React from "react";
 import Description from "../Components/cards/dispcription";
 import Carosel from "../Components/Carosel/Carosel";
 import Footer from "../Components/Fotter/Fotter";
-
-import ALLProductsBrands from "./ProductsBox";
+import ALLProductsBrands from "../Pages/ProductsBox"
 
 const HomePage = () => {
   return (

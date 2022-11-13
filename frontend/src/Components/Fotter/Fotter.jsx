@@ -9,14 +9,13 @@ import {
   SimpleGrid,
   Text,
   Link,
-  VisuallyHidden,
-  chakra,
+  
   useColorModeValue,
   Flex,
   Button,
   FormControl,
   Input,
-  Heading,
+
   Image,
   Accordion,
   AccordionButton,
@@ -25,8 +24,8 @@ import {
   AccordionItem,
 } from "@chakra-ui/react";
 import { useState } from "react";
-import Upperfooter from "./Upperfooter";
-import { CheckIcon } from "@chakra-ui/icons";
+
+
 import { FaMedium, FaTwitterSquare, FaYoutubeSquare } from "react-icons/fa";
 import { GrFacebook, GrLinkedin } from "react-icons/gr";
 // import ReactStoreBadges from "react-store-badges";

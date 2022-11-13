@@ -5,7 +5,7 @@ import CheckupCard from "../Components/cards/CheckupCards";
 import ComboCard from "../Components/cards/ComboCard";
 import Popularcategories from "../Components/cards/Popularcategories";
 import ProductsCard from "../Components/cards/ProductsCard";
-import SugarSubstitutes from "../Components/cards/Sugarsubstitutes";
+import SugarSubstitutesCard from "../Components/cards/Sugarsubstitutes";
 import {
   datalist,
   FeaturedBrands,
@@ -165,7 +165,7 @@ const ALLProductsBrands = () => {
             </Button>
           </Link>
         </Box>
-        <SugarSubstitutes something={Sugarsubstitutes} />
+        <SugarSubstitutesCard something={Sugarsubstitutes} />
       </Box>
 
       {/* brands */}
