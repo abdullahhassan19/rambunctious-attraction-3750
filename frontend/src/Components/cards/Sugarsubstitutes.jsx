@@ -2,7 +2,7 @@ import { Box, Image, Text } from "@chakra-ui/react";
 import React from "react";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-const CheckupCard = ({ something, prodVal = 4 }) => {
+const SugarSubstitutes = ({ something, prodVal = 6 }) => {
   const responsive = {
     desktop: {
       breakpoint: { max: 3000, min: 1024 },
@@ -52,25 +52,20 @@ const CheckupCard = ({ something, prodVal = 4 }) => {
             }}
             cursor="pointer"
           >
+            <Image h={"40%"} w={"40%"} m="auto" src={e.img} />
             <Box>
-
-            <Text fontSize={"14px"}>{e.title}
-             <span><Image width={"10px"}src={e.safelogo} alt="logo"/></span></Text>
-            <Image h={"30%"} w={"30%"} m="auto" src={e.img} />
-            </Box>
-          
-            <Box>
-              <Text fontSize={"15px"}>{e.dis1}</Text>
-              <Text fontSize={"13px"}>{e.dis2}</Text>
-              <Text fontSize={"14px"}>
-              ₹{e.price} 
-                <span marginleft="10px" style={{ textDecoration: "line-through" }}>
+              <Text fontSize={"15px"}>{e.name}</Text>
+              <Text fontSize={"13px"}>{e.qty}</Text>
+              <Text >
+                <Text fontSize={"17px"}>MRP</Text>
+                <span style={{ textDecoration: "line-through" ,fontSize:"17px" }}>
                   ₹{e.strikePrice}
                 </span>
+                <span style={{ color: "green", marginLeft: "1rem" }}>
+                  {e.discount}
+                </span>
               </Text>
-             
-              
-             
+              <Text fontWeight={"600"}>₹ {e.price}</Text>
             </Box>
           </Box>
         ))}
@@ -79,4 +74,4 @@ const CheckupCard = ({ something, prodVal = 4 }) => {
   );
 };
 
-export default CheckupCard
+export default SugarSubstitutes;

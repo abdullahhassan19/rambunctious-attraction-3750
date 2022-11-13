@@ -5,6 +5,7 @@ import CheckupCard from "../Components/cards/CheckupCards";
 import ComboCard from "../Components/cards/ComboCard";
 import Popularcategories from "../Components/cards/Popularcategories";
 import ProductsCard from "../Components/cards/ProductsCard";
+import SugarSubstitutes from "../Components/cards/Sugarsubstitutes";
 import {
   datalist,
   FeaturedBrands,
@@ -15,6 +16,7 @@ import {
   PopularCombo,
 
   Shopbyhealthconcerns,
+  Sugarsubstitutes,
   topSellingProducts,
 } from "./Productsdata";
 
@@ -139,6 +141,31 @@ const ALLProductsBrands = () => {
           </Link>
         </Box>
         <ProductsCard something={topSellingProducts} />
+      </Box>
+
+
+      <Box mt="2rem">
+        <Box
+          display="flex"
+          justifyContent="space-between"
+          px="2rem"
+          mb="0.5rem"
+        >
+          <Text fontWeight={"400"} lineHeight={"26px"} fontSize={"22px"}>
+          Sugar Substitutes
+          </Text>
+          <Link href="http://localhost:3000/allProducts" target="_blank">
+            <Button
+              bgColor="#ff6f61"
+              _hover={{ bg: "#ff6f61" }}
+              width="fit-content"
+              color="white"
+            >
+              SEE ALL
+            </Button>
+          </Link>
+        </Box>
+        <SugarSubstitutes something={Sugarsubstitutes} />
       </Box>
 
       {/* brands */}
