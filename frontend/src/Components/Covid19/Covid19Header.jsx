@@ -6,6 +6,8 @@ import Covid19Management from "./Covid19Management";
 import { BannerData } from "./Covid19BannerData";
 import Covid19ReUsableBanner from "./Covid19ReUsableBanner";
 import Covid19HelpNumber from "./Covid19HelpNumber";
+import Upperfooter from "../Fotter/Upperfooter";
+import Footer from "../Fotter/Fotter";
 const Covid19Header = () => {
   return (
     <>
@@ -81,6 +83,7 @@ const Covid19Header = () => {
                 paraFontSize={"1.8vw"} />
         </Box>
       </Box>
+      <Footer/>
     </>
   );
 };
