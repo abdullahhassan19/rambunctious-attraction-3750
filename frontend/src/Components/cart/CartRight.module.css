@@ -16,7 +16,7 @@
     text-align: center;
 }
 .CartRightMAinF > div > h5,h3 {
-    margin-bottom: -15px;
+    margin-bottom: 0;
     padding: 0px;
     /* border: 1px solid black; */
 }
@@ -86,7 +86,7 @@
     font-size: 14px;
 }
 .CartRightMAinS > div {
-    margin-bottom: -20px;
+    margin-bottom: 0;
 }
 
 /*    Third Div  */
@@ -95,7 +95,7 @@
 }
 .CartRightMAinTHF{
     display: flex;
-    margin-bottom: -20px;
+    margin-bottom: 0;
 }
 .CartRightMAinTHF > div > h5 {
     font-style: normal;
