@@ -1,7 +1,5 @@
-import {
-  ADD_ITEM_TO_CART_SUCCESS,
-  LOAD_CART_ITEMS,
-} from  "../constants/reducer.constants.js/cart.constants";
+import { ADD_ITEM_TO_CART_SUCCESS } from "../../constants/reducer.constants.js/cart.constants";
+
 
 export const addItemToCart = (payload) => (dispatch) => {
   

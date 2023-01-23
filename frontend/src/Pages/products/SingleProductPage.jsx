@@ -12,8 +12,9 @@ import React, { useEffect } from "react";
 import { BiRupee } from "react-icons/bi";
 import { useDispatch, useSelector } from "react-redux";
 import { useParams } from "react-router-dom";
-import { addItemToCart } from "../../actions/cart.actions";
-import { getSingleProductAPI } from "../../actions/product.actions";
+import { addItemToCart } from "../../Redux/actions/cart.actions";
+import { getSingleProductAPI } from "../../Redux/actions/product.actions";
+
 
 const SingleProductPage = () => {
   const dispatch = useDispatch();

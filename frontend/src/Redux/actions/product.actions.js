@@ -1,20 +1,20 @@
-import {
-  GET_ALL_PRODUCT_FAIL,
+
+import axios from "axios";
+import {  GET_ALL_PRODUCT_FAIL,
   GET_ALL_PRODUCT_REQUEST,
   GET_ALL_PRODUCT_SUCCESS,
   GET_DISCOUNT_PRODUCT_SUCCESS,
   GET_FILTERED_PROUDCT_SUCCESS,
   GET_SINGLE_PRODUCT_FAIL,
   GET_SINGLE_PRODUCT_REQUEST,
-  GET_SINGLE_PRODUCT_SUCCESS,
-} from "../constants/reducer.constants.js/product.constants";
-import axios from "axios";
+  GET_SINGLE_PRODUCT_SUCCESS, } from "../../constants/reducer.constants.js/product.constants";
 
 export const getAllProductsAPI = () => async (dispatch) => {
   dispatch({ type: GET_ALL_PRODUCT_REQUEST });
  
   try {
-    const { data } = await axios.get("https://onemgmasa.herokuapp.com/products");
+    const { data } = await axios.get("https://tata-1mg-t.vercel.app/products");
+    console.log(data.data,"data")
     dispatch({ type: GET_ALL_PRODUCT_SUCCESS, payload: data.data });
   
   } catch (error) {
@@ -32,7 +32,7 @@ export const filterByBrandAPI = (payload) => async (dispatch) => {
 export const getDiscountProductAPI = (payload) => async (dispatch) => {
   try {
     const { data } = await axios.get(
-      `https://onemgmasa.herokuapp.com/products/filter?discount=${payload}`
+      `https://tata-1mg-t.vercel.app/products/filter?discount=${payload}`
     );
     dispatch({ type: GET_DISCOUNT_PRODUCT_SUCCESS, payload: data.data });
   } catch (error) {
@@ -48,7 +48,7 @@ export const getSingleProductAPI = (id) => async (dispatch) => {
   dispatch({ type: GET_SINGLE_PRODUCT_REQUEST });
   try {
     const { data } = await axios.get(
-      `https://onemgmasa.herokuapp.com/products/data/${id}`
+      `https://tata-1mg-t.vercel.app/products/data/${id}`
     );
     dispatch({ type: GET_SINGLE_PRODUCT_SUCCESS, payload: data.data });
   } catch (error) {

@@ -14,9 +14,11 @@ import { StarIcon } from "@chakra-ui/icons";
 import { BiRupee } from "react-icons/bi";
 import styled from "styled-components";
 import { useDispatch, useSelector } from "react-redux";
-import { addItemToCart, updateCartCount } from "../actions/cart.actions";
+
 import { GrSubtractCircle } from "react-icons/gr";
 import { IoIosAddCircle } from "react-icons/io";
+import { addItemToCart, updateCartCount } from "../Redux/actions/cart.actions";
+
 
 const AllProduct = ({ product }) => {
   const dispatch = useDispatch();
