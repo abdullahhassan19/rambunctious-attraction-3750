@@ -1,42 +1,41 @@
 export const Shopbyhealthconcerns = [
   {
     title: "Diabetes Care",
-    img: "https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/c2a0598f-483c-48ff-9783-71e402aa28d3.png"
+    img: "https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/c2a0598f-483c-48ff-9783-71e402aa28d3.png",
   },
   {
-    title:"Cardiac Care",
-    img:"https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/ab1da5f4-c074-47d2-b278-a5fbd2c93f1f.png",
+    title: "Cardiac Care",
+    img: "https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/ab1da5f4-c074-47d2-b278-a5fbd2c93f1f.png",
   },
   {
-    title:"Stomach Care",
-    img:"https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/18e90e64-9e8c-47c5-ae33-508903429450.png"
+    title: "Stomach Care",
+    img: "https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/18e90e64-9e8c-47c5-ae33-508903429450.png",
   },
   {
-    title:"Liver Care",
-    img:"https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/14f0bebe-6220-4ac7-b4bb-c5b425975af3.png"
+    title: "Liver Care",
+    img: "https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/14f0bebe-6220-4ac7-b4bb-c5b425975af3.png",
   },
   {
-    title:"Boen,joint & Musle care",
-    img:"https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/ba975795-98dc-4cd8-8b55-3c20230d70e3.png"
+    title: "Boen,joint & Musle care",
+    img: "https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/ba975795-98dc-4cd8-8b55-3c20230d70e3.png",
   },
   {
-    title:"Kidney Care",
-    img:"https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/555f6a24-3e20-41ee-a03b-e3dbda183392.png"
+    title: "Kidney Care",
+    img: "https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/555f6a24-3e20-41ee-a03b-e3dbda183392.png",
   },
   {
-    title:"Pain relief",
-    img:"https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/5fa692ad-6647-4db5-9cb4-eb0bd9111331.png"
+    title: "Pain relief",
+    img: "https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/5fa692ad-6647-4db5-9cb4-eb0bd9111331.png",
   },
   {
-    title:"Respiratory Care",
-    img:"https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/4a788b46-97f3-460e-afb6-428368f779ee.png"
+    title: "Respiratory Care",
+    img: "https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/4a788b46-97f3-460e-afb6-428368f779ee.png",
   },
   {
-    title:"Eye Care",
-    img:"https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/631e3dca-3d5b-49f8-832b-8341ec4784e7.png"
+    title: "Eye Care",
+    img: "https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/631e3dca-3d5b-49f8-832b-8341ec4784e7.png",
   },
-
-]
+];
 export const FeaturedBrands = [
   {
     title: "Zandu",
@@ -81,113 +80,88 @@ export const FeaturedBrands = [
 ];
 
 export const datalist = [
-    {
-      Link:"https://www.1mg.com/otc/sugar-free-gold-low-calorie-sweetener-otc131475",
-      id: "1",
-      title: "Comprehensive Gold Full B...",
-      img: "https://onemg.gumlet.io/diagnostics/b1f8f81e-5677-11ec-9fd9-0a65f29f7340.png?format=auto",
-      price: "2099",
-      safelogo:"https://onemg.gumlet.io/safe_bjisiz.svg",
-      dis1:"25-Hydroxy Cholecalciferol",
-      dis2:"Provided By 3 Labs",
-      strikePrice: "1698"
-    
-      
-     
-    },
-    {
-      id: "1",
-      title: "Fever Package Extensive...",
-      img: "https://onemg.gumlet.io/diagnostics/b1f8f81e-5677-11ec-9fd9-0a65f29f7340.png?format=auto",
-      price: "2099",
-      safelogo:"https://onemg.gumlet.io/safe_bjisiz.svg",
-      dis1:"25-Hydroxy Cholecalciferol",
-      dis2:"Provided By 3 Labs",
-      strikePrice: "1698"
-    
-      
-     
-    },
-    {
-      id: "1",
-      title: "Blood Checkup...",
-      img: "https://onemg.gumlet.io/diagnostics/b1f8f81e-5677-11ec-9fd9-0a65f29f7340.png?format=auto",
-      price: "2099",
-      safelogo:"https://onemg.gumlet.io/safe_bjisiz.svg",
-      dis1:"25-Hydroxy Cholecalciferol",
-      dis2:"Provided By 3 Labs",
-      strikePrice: "1698"
-    
-      
-     
-    },
-    {
-      id: "1",
-      title: "Comprehensive Gold Full B...",
-      img: "https://onemg.gumlet.io/diagnostics/b1f8f81e-5677-11ec-9fd9-0a65f29f7340.png?format=auto",
-      price: "2099",
-      safelogo:"https://onemg.gumlet.io/safe_bjisiz.svg",
-      dis1:"25-Hydroxy Cholecalciferol",
-      dis2:"Provided By 3 Labs",
-      strikePrice: "1698"
-    
-      
-     
-    },
-    {
-      id: "1",
-      title: "Comprehensive Gold Full B...",
-      img: "https://onemg.gumlet.io/diagnostics/b1f8f81e-5677-11ec-9fd9-0a65f29f7340.png?format=auto",
-      price: "2099",
-      safelogo:"https://onemg.gumlet.io/safe_bjisiz.svg",
-      dis1:"25-Hydroxy Cholecalciferol",
-      dis2:"Provided By 3 Labs",
-      strikePrice: "1698"
-    
-      
-     
-    },
-    {
-      id: "1",
-      title: "Comprehensive Gold Full B...",
-      img: "https://onemg.gumlet.io/diagnostics/b1f8f81e-5677-11ec-9fd9-0a65f29f7340.png?format=auto",
-      price: "2099",
-      safelogo:"https://onemg.gumlet.io/safe_bjisiz.svg",
-      dis1:"25-Hydroxy Cholecalciferol",
-      dis2:"Provided By 3 Labs",
-      strikePrice: "1698"
-    
-      
-     
-    },
-    {
-      id: "1",
-      title: "Comprehensive Gold Full B...",
-      img: "https://onemg.gumlet.io/diagnostics/b1f8f81e-5677-11ec-9fd9-0a65f29f7340.png?format=auto",
-      price: "2099",
-      safelogo:"https://onemg.gumlet.io/safe_bjisiz.svg",
-      dis1:"25-Hydroxy Cholecalciferol",
-      dis2:"Provided By 3 Labs",
-      strikePrice: "1698"
-    
-      
-     
-    },
-    {
-      id: "1",
-      title: "Comprehensive Gold Full Body Checkup",
-      img: "https://onemg.gumlet.io/diagnostics/b1f8f81e-5677-11ec-9fd9-0a65f29f7340.png?format=auto",
-      price: "2099",
-      safelogo:"https://onemg.gumlet.io/safe_bjisiz.svg",
-      dis1:"25-Hydroxy Cholecalciferol",
-      dis2:"Provided By 3 Labs",
-      strikePrice: "1698"
-      
-     
-    },
-   
-   
-  ];
+  {
+    Link: "https://www.1mg.com/otc/sugar-free-gold-low-calorie-sweetener-otc131475",
+    id: "1",
+    title: "Comprehensive Gold Full B...",
+    img: "https://onemg.gumlet.io/diagnostics/b1f8f81e-5677-11ec-9fd9-0a65f29f7340.png?format=auto",
+    price: "2099",
+    safelogo: "https://onemg.gumlet.io/safe_bjisiz.svg",
+    dis1: "25-Hydroxy Cholecalciferol",
+    dis2: "Provided By 3 Labs",
+    strikePrice: "1698",
+  },
+  {
+    id: "1",
+    title: "Fever Package Extensive...",
+    img: "https://onemg.gumlet.io/diagnostics/b1f8f81e-5677-11ec-9fd9-0a65f29f7340.png?format=auto",
+    price: "2099",
+    safelogo: "https://onemg.gumlet.io/safe_bjisiz.svg",
+    dis1: "25-Hydroxy Cholecalciferol",
+    dis2: "Provided By 3 Labs",
+    strikePrice: "1698",
+  },
+  {
+    id: "1",
+    title: "Blood Checkup...",
+    img: "https://onemg.gumlet.io/diagnostics/b1f8f81e-5677-11ec-9fd9-0a65f29f7340.png?format=auto",
+    price: "2099",
+    safelogo: "https://onemg.gumlet.io/safe_bjisiz.svg",
+    dis1: "25-Hydroxy Cholecalciferol",
+    dis2: "Provided By 3 Labs",
+    strikePrice: "1698",
+  },
+  {
+    id: "1",
+    title: "Comprehensive Gold Full B...",
+    img: "https://onemg.gumlet.io/diagnostics/b1f8f81e-5677-11ec-9fd9-0a65f29f7340.png?format=auto",
+    price: "2099",
+    safelogo: "https://onemg.gumlet.io/safe_bjisiz.svg",
+    dis1: "25-Hydroxy Cholecalciferol",
+    dis2: "Provided By 3 Labs",
+    strikePrice: "1698",
+  },
+  {
+    id: "1",
+    title: "Comprehensive Gold Full B...",
+    img: "https://onemg.gumlet.io/diagnostics/b1f8f81e-5677-11ec-9fd9-0a65f29f7340.png?format=auto",
+    price: "2099",
+    safelogo: "https://onemg.gumlet.io/safe_bjisiz.svg",
+    dis1: "25-Hydroxy Cholecalciferol",
+    dis2: "Provided By 3 Labs",
+    strikePrice: "1698",
+  },
+  {
+    id: "1",
+    title: "Comprehensive Gold Full B...",
+    img: "https://onemg.gumlet.io/diagnostics/b1f8f81e-5677-11ec-9fd9-0a65f29f7340.png?format=auto",
+    price: "2099",
+    safelogo: "https://onemg.gumlet.io/safe_bjisiz.svg",
+    dis1: "25-Hydroxy Cholecalciferol",
+    dis2: "Provided By 3 Labs",
+    strikePrice: "1698",
+  },
+  {
+    id: "1",
+    title: "Comprehensive Gold Full B...",
+    img: "https://onemg.gumlet.io/diagnostics/b1f8f81e-5677-11ec-9fd9-0a65f29f7340.png?format=auto",
+    price: "2099",
+    safelogo: "https://onemg.gumlet.io/safe_bjisiz.svg",
+    dis1: "25-Hydroxy Cholecalciferol",
+    dis2: "Provided By 3 Labs",
+    strikePrice: "1698",
+  },
+  {
+    id: "1",
+    title: "Comprehensive Gold Full Body Checkup",
+    img: "https://onemg.gumlet.io/diagnostics/b1f8f81e-5677-11ec-9fd9-0a65f29f7340.png?format=auto",
+    price: "2099",
+    safelogo: "https://onemg.gumlet.io/safe_bjisiz.svg",
+    dis1: "25-Hydroxy Cholecalciferol",
+    dis2: "Provided By 3 Labs",
+    strikePrice: "1698",
+  },
+];
 export const popularCats = [
   {
     title: "Diabetes Care",
@@ -304,7 +278,6 @@ export const health = [
   },
 ];
 
-
 export const topSlidingImage = [
   {
     img: "https://onemg.gumlet.io/19a4fe54-3a77-411b-9e53-9adbacfbd9e9_1664865792.jpg?w=857&h=200&format=auto",
@@ -320,8 +293,8 @@ export const topSlidingImage = [
   },
 ];
 
-export const Sugarsubstitutes
-= [{
+export const Sugarsubstitutes = [
+  {
     link: "/otc/tata-1mg-diabetes-care-combo-pack-for-cholesterol-blood-sugar-management-otc795842",
     img: "https://onemg.gumlet.io/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/cropped/bpgstknem0udqzp9p4dm.jpg",
     name: "Sugar Free Gold Low Calorie Sweetener",
@@ -382,10 +355,9 @@ export const Sugarsubstitutes
     strikePrice: "240",
     discount: "20% off",
     price: "349",
-  }
-]
+  },
+];
 export const PopularCombo = [
-  
   {
     link: "/otc/tata-1mg-diabetes-care-combo-pack-for-cholesterol-blood-sugar-management-otc795842",
     img: "https://onemg.gumlet.io/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/c2sw0gi2dw4cwdf1ecjp.jpg",
@@ -407,7 +379,7 @@ export const PopularCombo = [
   {
     link: "/otc/tata-1mg-diabetes-care-combo-pack-for-cholesterol-blood-sugar-management-otc795842",
     img: "https://onemg.gumlet.io/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/qir6i2zlhzeddxa4mqt0.jpg",
-   
+
     name: " Immunity Care Combo of 1mg Panch Tulsi 30ml",
     qty: " combo pack of 3 units",
     strikePrice: "1698",
@@ -441,8 +413,7 @@ export const PopularCombo = [
     discount: "20% off",
     price: "1358",
   },
-
-]
+];
 export const topSellingProducts = [
   {
     link: "https://www.1mg.com/otc/baidyanath-kamini-vidrawan-ras-keshar-yukta-tablet-otc560948",

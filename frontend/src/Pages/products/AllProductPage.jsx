@@ -10,14 +10,9 @@ import {
 import React, { useState } from "react";
 import { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import {
-  filterByBrandAPI,
-  getAllProductsAPI,
-  getDiscountProductAPI,
-  sortItems,
-} from "../../actions/product.actions";
 import { AllBrands } from "../../constants/function.constants.js/function.constants";
 import AllProduct from "../../Components/allProductCart";
+import { filterByBrandAPI,getAllProductsAPI,getDiscountProductAPI,sortItems } from "../../Redux/actions/product.actions";
 
 const AllProductPage = () => {
   const { productList } = useSelector((state) => state);

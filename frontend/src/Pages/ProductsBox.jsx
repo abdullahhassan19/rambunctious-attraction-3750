@@ -36,7 +36,7 @@ const ALLProductsBrands = () => {
           <Text fontWeight={"400"} lineHeight={"26px"} fontSize={"22px"}>
           Shop by health concerns
           </Text>
-          <Link href="http://localhost:3000/products" target="_blank">
+          <Link href="/products" target="_blank">
             <Button
               bgColor="#ff6f61"
               _hover={{ bg: "#ff6f61" }}
@@ -54,7 +54,7 @@ const ALLProductsBrands = () => {
           <Text fontWeight={"300"} lineHeight={"26px"} fontSize={"12px"}>
           CheckUp cards
           </Text>
-          <Link href="http://localhost:3000/products" target="_blank">
+          <Link href="products" target="_blank">
             <Button
               bgColor="#ff6f61"
               _hover={{ bg: "#ff6f61" }}

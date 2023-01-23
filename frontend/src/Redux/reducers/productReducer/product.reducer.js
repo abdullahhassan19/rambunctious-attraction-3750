@@ -1,13 +1,15 @@
-import {
-  GET_ALL_PRODUCT_FAIL,
+// import {
+
+// } from "../../constants/reducer.constants.js/product.constants";
+
+import {   GET_ALL_PRODUCT_FAIL,
   GET_ALL_PRODUCT_REQUEST,
   GET_ALL_PRODUCT_SUCCESS,
   GET_DISCOUNT_PRODUCT_SUCCESS,
   GET_FILTERED_PROUDCT_SUCCESS,
   GET_SINGLE_PRODUCT_FAIL,
   GET_SINGLE_PRODUCT_REQUEST,
-  GET_SINGLE_PRODUCT_SUCCESS,
-} from "../../constants/reducer.constants.js/product.constants";
+  GET_SINGLE_PRODUCT_SUCCESS, } from "../../../constants/reducer.constants.js/product.constants";
 
 export const productListReducer = (
   state = { products: [], filteredProducts: [] },
