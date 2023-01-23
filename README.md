@@ -1,7 +1,5 @@
 
 
-### Netlify Link : https://the-awesome-mdzubair599-site.netlify.app/
-
 ### Wellness Pharma 
 
  ### It's a MERN Stack healthcare web application with all the major functionalities
