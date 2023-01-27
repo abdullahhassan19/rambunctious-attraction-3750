@@ -37,8 +37,9 @@ function Login({ setauthrole ,gettoken }) {
   };
   const handleloginsave = () => {
     console.log(data);
-
-    fetch("https://nemprojectbackend-production.up.railway.app/login", {
+    // https://nemprojectbackend-production.up.railway.app
+// https://wellness.onrender.com
+    fetch("https://wellness.onrender.com/login", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -53,11 +54,12 @@ function Login({ setauthrole ,gettoken }) {
           setMsg(res.msg);
         } else {
           console.log(res);
-          localStorage.setItem("token",res.token);
+          localStorage.setItem("token", res.token);
           localStorage.setItem("userId", res.userId);
           localStorage.setItem("name", res.name);
           localStorage.setItem("role", res.role);
           setauthrole(true);
+          alert("Login successful");
           onClose();
           gettoken();
         }
@@ -137,7 +139,7 @@ function Signup() {
   };
   const handlesignupsave = () => {
     console.log(data);
-    fetch("https://nemprojectbackend-production.up.railway.app/signup", {
+    fetch("https://wellness.onrender.com/signup", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -146,7 +148,7 @@ function Signup() {
     })
       .then((res) => res.json())
       .then((res) => console.log(res));
-
+      alert("Signup successful");
     onClose();
   };
 
@@ -226,17 +228,14 @@ function Create() {
     const userId = localStorage.getItem("userId");
     const token = localStorage.getItem("token");
     console.log(userId)
-    fetch(
-      `https://nemprojectbackend-production.up.railway.app/${userId}/create`,
-      {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-          Authorization: token,
-        },
-        body: JSON.stringify(data),
-      }
-    )
+    fetch(`https://wellness.onrender.com/${userId}/create`, {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+        Authorization: token,
+      },
+      body: JSON.stringify(data),
+    })
       .then((res) => res.json())
       .then((res) => console.log(res));
 
