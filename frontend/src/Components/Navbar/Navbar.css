@@ -19,6 +19,7 @@
 
 .header_first_row{
     /* border: 2px solid black; */
+    /* background-color: #aaa; */
     min-height: 50px;
     display: flex;
     justify-content: space-between;
@@ -183,8 +184,17 @@ background-color:rgb(255, 111, 97);
  font-size: 16px;
  cursor: pointer;
 }
+.header-third-row{
+  display: block;
+}
+@media (max-width:900px) {
+  .header-third-row{
 
+    display: none;
+  }
+}
 .header_third_row{
+
  width: 100%;   
  display: flex;
  flex-direction: row;

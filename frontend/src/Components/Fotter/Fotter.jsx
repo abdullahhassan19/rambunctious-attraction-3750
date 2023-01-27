@@ -86,7 +86,8 @@ const ListHeader = ({ children }) => {
 
 const Footer = () => {
   return (
-    <Box>
+    <Box 
+    >
       <Box border={"2px solid #e6e9f0"}>
         <Container maxW="container.xl" pt={"10px"}>
           <Stack>

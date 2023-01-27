@@ -7,9 +7,7 @@ import ALLProductsBrands from "../Pages/ProductsBox"
 const HomePage = () => {
   return (
     <div>
-      {/* <Carousel/> */}
       <Carosel />
-
       <div>
         <ALLProductsBrands />
       </div>

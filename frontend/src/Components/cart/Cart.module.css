@@ -1,7 +1,7 @@
 .main{
     display: flex;
     width: 80%;
-    margin: auto;
+    margin-top: 15%;
     /* border: 1px solid black; */
 }
 .main > div{

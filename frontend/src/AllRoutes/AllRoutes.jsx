@@ -2,7 +2,6 @@ import React from "react";
 import { Routes, Route } from "react-router-dom";
 import Address from "../Components/address/Address";
 import Cart from "../Components/cart/Cart";
-import CartPage from "../Pages/CartPage";
 import Covid19 from "../Pages/Covid19";
 import HomePage from "../Pages/HomePage";
 import { LabTests } from "../Pages/LabTestsPage/LabTests";

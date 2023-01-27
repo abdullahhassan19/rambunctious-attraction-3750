@@ -3,22 +3,15 @@ import {
   Button,
   Flex,
   Image,
-  Spinner,
   Stack,
   Text,
-
 } from "@chakra-ui/react";
-import { useState } from "react";
 import { Link } from "react-router-dom";
-import { StarIcon } from "@chakra-ui/icons";
-import { BiRupee } from "react-icons/bi";
 import styled from "styled-components";
 import { useDispatch, useSelector } from "react-redux";
-
 import { GrSubtractCircle } from "react-icons/gr";
 import { IoIosAddCircle } from "react-icons/io";
 import { addItemToCart, updateCartCount } from "../Redux/actions/cart.actions";
-
 
 const AllProduct = ({ product }) => {
   const dispatch = useDispatch();
@@ -63,9 +56,11 @@ const AllProduct = ({ product }) => {
         boxShadow: "0 0 9px 0 rgb(0 0 0 / 30%)",
       }}
       position={"relative"}
+      
       p={"10px"}
     >
       <Box
+     
         width="100%"
         margin="auto"
         p={"20px 20px"}

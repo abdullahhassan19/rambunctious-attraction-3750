@@ -641,11 +641,12 @@ const Navbar = () => {
             </div>
             <button className="upload">Upload</button>
 
-            <div></div>
+            
           </div>
         </div>
+        <div className="header-third-row" border="1px solid red">
         <Link to="/products">
-          <div className="header_third_row">
+          <div  className="header_third_row">
             <div className="drop_down">
               All Medicines{" "}
               <i className="fa fa-angle-down" aria-hidden="true"></i>
@@ -969,6 +970,7 @@ const Navbar = () => {
             </div>
           </div>
         </Link>
+        </div>
       </div>
     </div>
   );

@@ -1,6 +1,7 @@
 .paymentMain{
     display: flex;
     gap: 40px;
+    margin-top: 15%;
 }
 
 .UPI p {

@@ -7,8 +7,6 @@ import {
 } from "./reducers/productReducer/product.reducer";
 import { cartReducer } from "./reducers/productReducer/cart.reducer";
 
-
-
 const reducer = combineReducers({
   productList: productListReducer,
   cart: cartReducer,

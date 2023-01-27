@@ -11,13 +11,19 @@ import React, { useState } from "react";
 import { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { AllBrands } from "../../constants/function.constants.js/function.constants";
-import AllProduct from "../../Components/allProductCart";
-import { filterByBrandAPI,getAllProductsAPI,getDiscountProductAPI,sortItems } from "../../Redux/actions/product.actions";
+import AllProduct from "../../Components/AllProductCart";
+import {
+  filterByBrandAPI,
+  getAllProductsAPI,
+  getDiscountProductAPI,
+  sortItems,
+} from "../../Redux/actions/product.actions";
+import Footer from "../../Components/Fotter/Fotter";
 
 const AllProductPage = () => {
   const { productList } = useSelector((state) => state);
   const { loading, products, filteredProducts } = productList;
-  
+
   const [arr, setArr] = useState([]);
   const [filteredProductList, setFilteredProductList] = useState([]);
   const dispatch = useDispatch();
@@ -75,17 +81,24 @@ const AllProductPage = () => {
   };
 
   return (
-    <div style={{ width: "100%" }}>
-      <Flex>
-        <Box>
+    <div
+      style={{ width: "100%", marginTop:"10%"}}
+    >
+      <Flex >
+        <Box       
+         height="37rem" 
+         position={"fixed"}        
+         left="5%" 
+         width="95%" >        
           <Flex
             flexDirection={"column"}
-            width={{ md: "180px" }}
+            width={{ md: "20%" }}
             display={{ base: "none", sm: "block" }}
           >
             <div
               style={{
                 padding: "15px",
+                width:"100%",
                 borderBottom: "1px solid silver",
                 fontWeight: "bold",
                 fontSize: "14px",
@@ -179,11 +192,14 @@ const AllProductPage = () => {
             <Button onClick={() => handleResetFilters()}>Reset Filters</Button>
           </Flex>
         </Box>
-        <Box>
+        <Box  >
           <Flex
             justifyContent="space-evenly"
             padding="1rem"
             alignItems="center"
+         
+           
+           
           >
             <Flex gap="1rem" alignItems="center" justifyContent="center">
               <Text margin="auto" width="100%">
@@ -211,13 +227,15 @@ const AllProductPage = () => {
             />
           ) : (
             <Grid
-              width={"100%"}
+          
+              marginLeft={"28%"}
+              width="72%"
               templateColumns={[
                 "repeat(1, 1fr)",
                 "repeat(3, 1fr)",
                 "repeat(4, 1fr)",
               ]}
-              gap={4}
+              gap={3}
             >
               {filteredProductList.map((el, i) => (
                 <AllProduct product={el} key={i} />
@@ -225,7 +243,11 @@ const AllProductPage = () => {
             </Grid>
           )}
         </Box>
+        
       </Flex>
+      <Box w="72%" ml="28%">
+          <Footer/>
+      </Box>
     </div>
   );
 };
