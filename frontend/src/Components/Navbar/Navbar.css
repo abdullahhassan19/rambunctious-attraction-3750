@@ -1,4 +1,13 @@
-
+.navbarfixed{
+  /* position: fixed;
+  top: 0; */
+  position: absolute;
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  z-index: 100;
+  width: 100%;
+}
 .header{
     /* border: 1px solid blue; */
     font-family: "Clear Sans","Helvetica Neue",Helvetica,Arial,sans-serif;

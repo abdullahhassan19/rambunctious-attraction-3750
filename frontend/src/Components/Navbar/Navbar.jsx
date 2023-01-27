@@ -371,7 +371,7 @@ const Navbar = () => {
     gettoken();
   },[]);
   return (
-    <div>
+    <div className="navbarfixed">
       <div className="header">
         <div className="header_first_row">
           <div className="header_first_row_first_section">
