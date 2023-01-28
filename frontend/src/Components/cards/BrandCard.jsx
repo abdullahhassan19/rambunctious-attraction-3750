@@ -54,7 +54,7 @@ const BrandsCard = ({ something }) => {
             }}
             cursor="pointer"
           >
-             <Link href="http://localhost:3000/products" target="_blank">
+             <Link href="/products" target="_blank">
             <Image w={"70%"} m="auto" src={e.img} />
             <Text>{e.title}</Text>
             </Link>

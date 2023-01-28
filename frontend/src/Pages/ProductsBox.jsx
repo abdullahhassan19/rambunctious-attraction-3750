@@ -30,11 +30,11 @@ const ALLProductsBrands = () => {
           m="auto"
           src="https://res.cloudinary.com/du8msdgbj/image/upload/v1647251796/ueyxzzku83yuvpqxyrwe.png"
         />
-      </Box>    
+      </Box>
       <Box mt="2rem">
         <Box display="flex" justifyContent="space-between" px="2rem">
           <Text fontWeight={"400"} lineHeight={"26px"} fontSize={"22px"}>
-          Shop by health concerns
+            Shop by health concerns
           </Text>
           <Link href="/products" target="_blank">
             <Button
@@ -49,17 +49,16 @@ const ALLProductsBrands = () => {
         </Box>
         <BrandsCard something={Shopbyhealthconcerns} />
       </Box>
-      <Box mt="2rem" >
+      <Box mt="2rem">
         <Box display="flex" justifyContent="space-between" px="2rem">
           <Text fontWeight={"300"} lineHeight={"26px"} fontSize={"12px"}>
-          CheckUp cards
+            CheckUp cards
           </Text>
           <Link href="products" target="_blank">
             <Button
               bgColor="#ff6f61"
               _hover={{ bg: "#ff6f61" }}
-              width="100%"
-              height={"20px"}
+              width="fit-content"
               color="white"
             >
               SEE ALL
@@ -67,15 +66,14 @@ const ALLProductsBrands = () => {
           </Link>
         </Box>
         <Box>
-        <CheckupCard something={datalist} />
+          <CheckupCard something={datalist} />
         </Box>
-       
       </Box>
 
       <Box mt="2rem">
         <Box display="flex" justifyContent="space-between" px="2rem">
           <Text fontWeight={"400"} lineHeight={"26px"} fontSize={"22px"}>
-          Popular categories
+            Popular categories
           </Text>
           <Link href="http://localhost:3000/allProducts" target="_blank">
             <Button
@@ -108,7 +106,6 @@ const ALLProductsBrands = () => {
         </Box>
         <BrandsCard something={FeaturedBrands} />
       </Box>
-     
 
       {/* Products */}
 
@@ -136,7 +133,6 @@ const ALLProductsBrands = () => {
         <ProductsCard something={topSellingProducts} />
       </Box>
 
-
       <Box mt="2rem">
         <Box
           display="flex"
@@ -145,7 +141,7 @@ const ALLProductsBrands = () => {
           mb="0.5rem"
         >
           <Text fontWeight={"400"} lineHeight={"26px"} fontSize={"22px"}>
-          Sugar Substitutes
+            Sugar Substitutes
           </Text>
           <Link href="http://localhost:3000/products" target="_blank">
             <Button
@@ -163,7 +159,7 @@ const ALLProductsBrands = () => {
 
       {/* brands */}
 
-      <Box mt="2rem" >
+      <Box mt="2rem">
         <Box display="flex" justifyContent="space-between" px="2rem">
           <Text fontWeight={"400"} lineHeight={"26px"} fontSize={"22px"}>
             Featured Brands
@@ -210,7 +206,6 @@ const ALLProductsBrands = () => {
 
       {/* Products */}
 
-     
       <Box mt="2rem">
         <Box
           display="flex"
@@ -219,7 +214,7 @@ const ALLProductsBrands = () => {
           mb="0.5rem"
         >
           <Text fontWeight={"400"} lineHeight={"26px"} fontSize={"22px"}>
-          Popular Combo Deals
+            Popular Combo Deals
           </Text>
           <Link href="http://localhost:3000/products" target="_blank">
             <Button

@@ -52,7 +52,7 @@ const CamboCard = ({ something, prodVal = 6 }) => {
             }}
             cursor="pointer"
           >
-              <Link href="http://localhost:3000/products" target="_blank">
+              <Link href="/products" target="_blank">
             <Image h={"40%"} w={"40%"} m="auto" src={e.img} />
             <Box>
               <Text fontSize={"15px"}>{e.name}</Text>

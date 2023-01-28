@@ -52,7 +52,7 @@ const CheckupCard = ({ something, prodVal = 4 }) => {
             }}
             cursor="pointer"
           >
-             <Link href="http://localhost:3000/products" target="_blank">
+             <Link href="/products" target="_blank">
             <Box>
            
             <Text fontSize={"14px"}>{e.title}
