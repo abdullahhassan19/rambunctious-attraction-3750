@@ -123,10 +123,20 @@
     box-shadow: 0 0 0 1px #ff6f61;
 }
 
-
-.paymentMainS{
+.paymentMain{
+    /* border: 15px solid red; */
+    width: 100%;
     display: flex;
-    gap: 20px;
+    gap: 10px;
+}
+.paymentMainF{
+    /* border: 5px solid black; */
+    width: 40%;
+}
+.paymentMainS{
+    /* border: 5px solid green; */
+    
+    width: 50%;
 }
 .paymentMainSF{
     width: 100%;
@@ -136,4 +146,7 @@
     margin-bottom: 10px;
     box-shadow: rgba(136, 135, 135, 0.24) 0px 3px 8px;
 
+}
+.redtext{
+    color: red;
 }

@@ -14,12 +14,22 @@ const OTP = () => {
             position: toast.POSITION.TOP_CENTER
         })
     }
-
+    const successTost=()=>{
+        toast.success("Order is Placed Successfully,  Redirecting you to Home Page", {
+          position: toast.POSITION.TOP_CENTER,
+        });
+        setTimeout(() => {
+            Navigate("/")
+            
+        }, 3000);
+        
+    }
 
     const handleClick = () => {
         if (otp == 2) {
-            Navigate("/")
-            }
+            successTost()
+            
+        }
         else{
             toast.error("Your OTP is wrong", {
                 position: toast.POSITION.TOP_CENTER

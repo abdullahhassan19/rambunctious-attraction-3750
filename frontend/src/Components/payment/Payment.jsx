@@ -19,7 +19,7 @@ import Card from './../card/Card';
 const Payment = () => {
     return (
         <div>
-            <Tabs className={style.paymentMain}>
+            <Tabs className={style.paymentMain} display={"flex"}>
                 <div className={style.paymentMainF}>
                     <div className={style.paymentmethod}>
                         <Tab className={style.UPI}><div className={style.icons}><SiPhonepe color="#636363" /></div><p>PhonePe</p></Tab>
@@ -31,6 +31,7 @@ const Payment = () => {
                 </div>
 
                 <div className={style.paymentMainS}>
+                    <h3 className={style.redtext}>Please Select Card Payment for This time</h3>
                     <div className={style.paymentMainSF}>
                         <TabPanels>
                             <TabPanel className={style.upi}>
